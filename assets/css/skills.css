@@ -1,0 +1,88 @@
+/* Universal Style For Skills */
+.title-universal-h2 {
+    font-size: 48px;
+    text-align: center;
+    padding-bottom: 20px;
+    color: rgb(255, 255, 255);
+  }
+  
+  @media (max-width: 1250px) {
+    .title-universal-h2 {
+      font-size: 38px;
+    }
+  }
+  
+  @media (max-width: 668px) {
+    .title-universal-h2 {
+      font-size: 30px;
+    }
+  }
+  .skills-universal-h2
+  {
+    font-size: 30px;
+    text-align: left;
+    padding-bottom: 20px;
+    color: rgb(255, 255, 255);
+  }
+  @media (max-width: 1250px) {
+    .skills-universal-h2 {
+      font-size: 38px;
+      text-align: center;
+    }
+  }
+  
+  @media (max-width: 668px) {
+    .skills-universal-h2 {
+      font-size: 30px;
+      text-align: center;
+    }
+  }
+  .skills-title h2
+  {
+    text-align: center; 
+    color:#C18F59;
+    padding-bottom: 20px;
+    
+  }
+  .universal-h2-bckg {
+    background-image: url("../images/double-line.svg");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+  }
+
+  .skills
+  {
+      background-image: url(./../img/skills.jpg);
+      position: relative;
+      background-position: center;
+      background-size: cover;
+      display: flex;
+  }
+  .skills::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: 0.7;
+}
+.main-content
+{
+  z-index: 1;
+  padding-top: 150px;
+  padding-bottom: 50px;
+}
+  .development
+  {
+      padding-top: 50px;
+  }
+  .design
+  {
+      padding-top: 50px;
+  }
+  .tools
+  {
+      padding-top: 80px;
+  }

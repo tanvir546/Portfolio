@@ -1,0 +1,29 @@
+.about
+{
+    /* background-color:linear-gradient(rgba(0, 0, 0, 0), black); */
+    background-color: rgba(153, 163, 163, 0.26);
+    z-index: 1;
+    position: relative;
+    height: 650px;
+    
+}
+#shadow
+{
+     /* background-image: url(./../img/bg-vignette.jpg); */
+    
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     /* height: 90%; */
+     opacity: .4;
+     width: 50%;
+     background-image:url(./../img/WhatsApp\ Image\ 2020-06-10\ at\ 11.43.01\ PM.jpeg);
+     /* background-color:linear-gradient(rgba(0, 0, 0, 0), black); */
+     height: 600px;
+     z-index: -1;
+     position: relative;
+    /* justify-content: center;
+    display: flex; */
+    
+}
+/* 1st position absulate porer gula relative*/

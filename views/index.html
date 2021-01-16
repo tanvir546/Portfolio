@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+
+  <link rel="stylesheet" href="./../assets/css/bootstrap.css">
+  <link rel="stylesheet" href="./../assets/css/style.css">
+  <link rel="stylesheet" href="./../assets/css/nav.css">
+  <!-- <script src="https://code.jquery.com/jquery-3.5.1.js"></script> -->
+</head>
+
+<body>
+  <header>
+    <nav class="site-navigation">
+      <div class="site-navigation-inner site-container">
+        <a href="./../views/index.html"><img src="./../assets/img/site-logo.png" alt="site logo"></a>
+        <div class="main-navigation">
+          <ul class="main-navigation__ul">
+            <li><a href="./../views/index.html">Home</a></li>
+            <li><a href="./../views/about.html">About</a></li>
+            <li><a href="./../views/education-experiences.html">Academic Background</a></li>
+            <li><a href="./../views/education-experiences.html">Work Experiences</a></li>
+            <li><a href="./../views/skills.html">Skills</a></li>
+            <li><a href="./../views/contact.html">Contact</a></li>
+            <!-- <li><a href="#">Page 4</a></li> -->
+          </ul>
+        </div>
+        <div id="myBtn" class="burger-container" onclick="myFunction(this)">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <!-- Top banner -->
+    <section class="fh5co-top-banner">
+      <div class="top-banner__inner site-container">
+        <div class="top-banner__image">
+          <img src="./../assets/img/top-banner-author.jpg" alt="author image">
+        </div>
+        <div class="top-banner__text">
+          <div class="top-banner__text-up">
+            <span class="brand-span">Hello! I'm</span>
+            <h2 class="top-banner__h2">Tanvir</h2>
+          </div>
+          <div class="top-banner__text-down">
+            <h2 class="top-banner__h2">Ahamed</h2>
+            <span class="brand-span">Web Developer & Designer</span>
+          </div>
+          <p>One Man. One Mission. Can He Go Beyond?One Man. One Mission. Can He Go Beyond?</p>
+          <a href="./../views/about.html" class="sim-btn btn-hover-lt"><span class="btn-text">Read More</span></a>
+        </div>
+      </div>
+    </section>
+    <!-- Work Section-->
+    <section id="portfolio">
+      <div class="container wow fadeInUp">
+        <div id="text">
+          <h2 class="universal-h2 universal-h2-bckg" >Work</h2>
+          <p>
+            We understand, within the current climate, it’s a worrying and uncertain time for everyone,
+            but we’d like to assure you that the safety, health and wellbeing of our guests and our staff
+            is our absolute priority.
+          </p>
+        </div>
+        <div class="row" id="main-portfolio">
+
+          <div class="col-lg-12">
+            <ul id="portfolio-flters">
+              <li data-filter=".filter-app, .filter-card, .filter-logo, .filter-web" class="filter-active">All</li>
+              <li data-filter=".filter-app">App</li>
+              <li data-filter=".filter-card">Card</li>
+              <li data-filter=".filter-logo">Logo</li>
+              <li data-filter=".filter-web">Web</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row" id="portfolio-wrapper">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <a href="">
+              <img src="./../assets/img/1.jpg" alt="">
+              <div class="details">
+                <h4>App 1</h4>
+                <span>Alored dono par</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <a href="">
+              <img src="./../assets/img/2.jpg" alt="">
+              <div class="details">
+                <h4>Web 2</h4>
+                <span>Alored dono par</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <a href="">
+              <img src="./../assets/img/3.jpg" alt="">
+              <div class="details">
+                <h4>App 3</h4>
+                <span>Alored dono par</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <a href="">
+              <img src="./../assets/img/4.jpg" alt="">
+              <div class="details">
+                <h4>Card 1</h4>
+                <span>Alored dono par</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <a href="">
+              <img src="./../assets/img/5.jpg" alt="">
+              <div class="details">
+                <h4>Card 2</h4>
+                <span>Alored dono par</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <a href="">
+              <img src="./../assets/img/6.jpg" alt="">
+              <div class="details">
+                <h4>Web 3</h4>
+                <span>Alored dono par</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <a href="">
+              <img src="./../assets/img/1.jpg" alt="">
+              <div class="details">
+                <h4>Card 3</h4>
+                <span>Alored dono par</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <a href="">
+              <img src="./../assets/img/2.jpg" alt="">
+              <div class="details">
+                <h4>App 2</h4>
+                <span>Alored dono par</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-logo">
+            <a href="">
+              <img src="./../assets/img/3.jpg" alt="">
+              <div class="details">
+                <h4>Logo 1</h4>
+                <span>Alored dono par</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-logo">
+            <a href="">
+              <img src="./../assets/img/4.jpg" alt="">
+              <div class="details">
+                <h4>Logo 3</h4>
+                <span>Alored dono par</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <a href="">
+              <img src="./../assets/img/5.jpg" alt="">
+              <div class="details">
+                <h4>Web 1</h4>
+                <span>Alored dono par</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-logo">
+            <a href="">
+              <img src="./../assets/img/6.jpg" alt="">
+              <div class="details">
+                <h4>Logo 2</h4>
+                <span>Alored dono par</span>
+              </div>
+            </a>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+    <!-- Work Section End -->
+
+    <!-- Promotion Section -->
+    <!-- <section class="promotion">
+      <div class="section-body promotion-content container">
+        <div class="row ">
+          <div class="col-md-8" id="promotion-details">
+            <a href="" style="color: #fff; font-size: 30px;">For Building The Modern Website </a><br>
+          </div>
+          <div class="col-lg-4" id="promotion-details-button">
+            <a href="#" class="promotion-btn pro-btn-hover-lt"><span class="pro-btn-text">Contact</span></a>
+          </div>
+        </div>
+      </div>
+    </section> -->
+    <!-- Promotion Section End -->
+    
+    <!-- Social Section -->
+	<section class="fh5co-social">
+		<div class="site-container">
+			<div class="social">
+				<h5>Follow me!!</h5>
+				<div class="social-icons">
+					<a href="#" target="_blank"><img src="./../assets/img/social-twitter.png" alt="social icon"></a>
+					<a href="#" target="_blank"><img src="./../assets/img/social-pinterest.png" alt="social icon"></a>
+					<a href="#" target="_blank"><img src="./../assets/img/social-youtube.png" alt="social icon"></a>
+					<a href="#" target="_blank"><img src="./../assets/img/social-twitter.png" alt="social icon"></a>
+				</div>
+				<h5>Share it!</h5>
+			</div>
+		</div>
+	</section>
+	<!-- Social Section End -->
+  </main>
+  <footer>
+    <div class="footer">
+      <span>© Copyright <a href="">Tanvir Ahamed</a>. All Rights Reserved <br> Designed by <a href="">Tanvir Ahamed</a></span>
+    </div>
+  </footer>
+
+
+  <script src="./../assets/js/jquery-3.4.1.slim.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.0.js"></script>
+  <script src="./../assets/js/popper.min.js"></script>
+  <script src="./../assets/js/bootstrap.min.js"></script>
+  <script src="./../assets/js/main.js"></script>
+
+
+</body>
+
+</html>
